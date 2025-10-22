@@ -15,7 +15,7 @@ create table doctor
 	id	INT auto_increment,
 	Firstname	varchar(30),
 	Surname		varchar(30),
-	Specialism	varchar(30),
+	Specialism	varchar(30),visit
 	Hoursperweek	integer,
 	primary key(id)
 );
